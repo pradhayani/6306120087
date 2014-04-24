@@ -1,3 +1,4 @@
+
 package fibonanci;
 import java.util.Scanner;
 
@@ -32,4 +33,3 @@ public class Fibonanci {
     }
     
 }
-
