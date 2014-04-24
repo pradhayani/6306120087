@@ -14,10 +14,10 @@ public class Fibonanci {
         System.out.println("Output : ");
         for(int i=1;i<=angka;i++){
             if(i==1){
-                System.out.print(1 +" ");
+                System.out.print(awal +" ");
             }
             else if(i>0 && i<3){
-                System.out.print(1 + " ");
+                System.out.print(awal + " ");
             }
             else
             {
@@ -27,6 +27,9 @@ public class Fibonanci {
                 System.out.print(+total +" ");
             }
         }
+        System.out.println("");
+        System.out.println(awal+total+a); 
     }
     
 }
+
