@@ -1,0 +1,32 @@
+package fibonanci;
+import java.util.Scanner;
+
+public class Fibonanci {
+    
+ 
+    public static void main(String[] args) {
+       
+        System.out.print("Input :  ");
+        Scanner input= new Scanner(System.in);
+        int angka=input.nextInt();
+        int total=1;
+        int awal=1,a=1;
+        System.out.println("Output : ");
+        for(int i=1;i<=angka;i++){
+            if(i==1){
+                System.out.print(1 +" ");
+            }
+            else if(i>0 && i<3){
+                System.out.print(1 + " ");
+            }
+            else
+            {
+                awal=total;
+                total=total+a;
+                a=awal;
+                System.out.print(+total +" ");
+            }
+        }
+    }
+    
+}
